@@ -2,10 +2,15 @@ body {
     margin: 0px;
 }
 
+.github-corner{
+    z-index: 100;
+}
+
 #map {
     width: 100vw;
     height: 100vh;
 }
+
 
 .main {
     padding: 16px 16px 24px 16px;
