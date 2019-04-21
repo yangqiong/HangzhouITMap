@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>杭州互联网公司招聘分布</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=0,maximum-scale=1'>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="filter">
+            <select id="financeStage">
+                <option value="">融资阶段</option>
+                <option value="上市公司">上市公司</option>
+                <option value="天使轮">天使轮</option>
+                <option value="A轮">A轮</option>
+                <option value="B轮">B轮</option>
+                <option value="C轮">C轮</option>
+                <option value="D轮及以上">D轮及以上</option>
+                <option value="不需要融资">不需要融资</option>
+                <option value="未融资">未融资</option>
+            </select>
+            <select id="companySize">
+                <option value="">公司规模</option>
+                <option value="少于15人">少于15人</option>
+                <option value="50-150人">50-150人</option>
+                <option value="150-500人">150-500人</option>
+                <option value="500-2000人">500-2000人</option>
+                <option value="2000人以上">2000人以上</option>
+            </select>
+        </div>
+        <div class="remark">
+            <p>时间：2019年04月; 数据：来源于拉勾网</p>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script src="https://webapi.amap.com/maps?v=1.4.14&key=0226dc1aa112f3ca632bd7f71fb1af9d"></script>
+    <script src="./companies.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        var _mtac = {"senseQuery":1};
+        (function() {
+            var mta = document.createElement("script");
+            mta.src = "https://pingjs.qq.com/h5/stats.js?v2.0.4";
+            mta.setAttribute("name", "MTAH5");
+            mta.setAttribute("sid", "500644755");
+            mta.setAttribute("cid", "500644756");
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(mta, s);
+        })();
+  </script>
+</body>
+</html>

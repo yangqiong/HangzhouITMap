@@ -1,0 +1,16 @@
+{
+  "name": "hangzhouitmap",
+  "version": "1.0.0",
+  "description": "杭州互联网公司招聘分布图",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "杭州",
+    "IT",
+    "招聘"
+  ],
+  "author": "leoqyang",
+  "license": "MIT"
+}
